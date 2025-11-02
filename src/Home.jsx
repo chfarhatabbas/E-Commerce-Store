@@ -57,7 +57,7 @@ const Home = () => {
             className="relative group overflow-hidden rounded-2xl shadow-lg"
           >
             <img
-              src="https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAwq6Ez72TLTCGc2TKNFvDZiJIV8dgrZlFQ&s"
               alt="Top Selling"
               className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
             />
