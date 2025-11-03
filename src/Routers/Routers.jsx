@@ -11,8 +11,14 @@ const Routers = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/categories" element={<Categories />} />
-      <Route path="/products/:category" element={<Products />} />
-      <Route path="/cart" element={<Cart />} />
+
+        {/* ✅ Add this line to handle /products */}
+        <Route path="/products" element={<Products />} />
+
+        {/* Existing route for category-specific products */}
+        <Route path="/products/:category" element={<Products />} />
+
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </div>
   )
